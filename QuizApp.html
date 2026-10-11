@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <main class="quiz-app">
+
+        <h1 class="quiz-title">Quiz App</h1>
+
+        <section class="quiz-container">
+
+            <!-- Question -->
+            <div class="quiz-header">
+
+                <h2 id="question" class="quiz-question">
+                    Quiz Question
+                </h2>
+
+            </div>
+
+            <!-- Options -->
+            <ul id="answer-list" class="answer-list">
+
+                <li class="answer-item">
+                    <input
+                        type="radio"
+                        name="answer"
+                        id="answer-A"
+                        value="A"
+                        class="answer-input"
+                    >
+                    <label
+                        for="answer-A"
+                        id="option-A"
+                        class="answer-label"
+                    >
+                        Option A
+                    </label>
+                </li>
+
+                <li class="answer-item">
+                    <input
+                        type="radio"
+                        name="answer"
+                        id="answer-B"
+                        value="B"
+                        class="answer-input"
+                    >
+                    <label
+                        for="answer-B"
+                        id="option-B"
+                        class="answer-label"
+                    >
+                        Option B
+                    </label>
+                </li>
+
+                <li class="answer-item">
+                    <input
+                        type="radio"
+                        name="answer"
+                        id="answer-C"
+                        value="C"
+                        class="answer-input"
+                    >
+                    <label
+                        for="answer-C"
+                        id="option-C"
+                        class="answer-label"
+                    >
+                        Option C
+                    </label>
+                </li>
+
+                <li class="answer-item">
+                    <input
+                        type="radio"
+                        name="answer"
+                        id="answer-D"
+                        value="D"
+                        class="answer-input"
+                    >
+                    <label
+                        for="answer-D"
+                        id="option-D"
+                        class="answer-label"
+                    >
+                        Option D
+                    </label>
+                </li>
+
+            </ul>
+
+            <hr class="quiz-divider">
+
+            <!-- Navigation -->
+            <div class="quiz-navigation">
+
+                <button
+                    type="button"
+                    id="backBtn"
+                    class="quiz-btn back-btn"
+                >
+                    Back
+                </button>
+
+                <button
+                    type="button"
+                    id="nextBtn"
+                    class="quiz-btn next-btn"
+                >
+                    Next
+                </button>
+
+            </div>
+
+            <!-- Submit -->
+            <div class="quiz-footer">
+
+                <button
+                    type="button"
+                    id="submitBtn"
+                    class="quiz-btn submit-btn"
+                >
+                    Submit
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
